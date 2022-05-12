@@ -37,7 +37,7 @@
 
     background: #C4C4C4;
     mix-blend-mode: multiply;
-    backdrop-filter: blur(33px);
+    backdrop-filter: blur(25px);
 }
 
 .rectangle4{
@@ -165,3 +165,41 @@
 
     color: #4988c7
 }
+
+.small-box{
+    position: absolute;
+    width: 350px;
+    left: 150px;
+    top: 700px;
+}
+
+.column{
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 70px;
+    height: 300px;
+    align-content: center;
+    align-items:center;
+}
+
+.row:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+
+    color: #50FCFC;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-weight: 400;
+}
+
